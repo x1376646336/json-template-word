@@ -13,6 +13,24 @@ This plugin supports converting the generated JSON on the dify platform into a W
 ![Dify Compatibility]( https://img.shields.io/badge/Dify-%3E%3D0.6.0-blue)
 
 Intelligently fill the JSON data output by the big language model into predefined Word templates, automatically generate standardized documents, and support downloads.
+## Setup
+Installation
+Install the plugin from Dify Marketplace
+Navigate to Plugins section in your Dify workspace
+Find the "JSON Template Word" plugin and click "Install"
+Once installed, you can use the plugin in your applications
+Adding to Applications
+Create or edit a Chatflow or Workflow application
+In the tool selection panel, select "JSON Template Word" tool
+Configure the tool in your application flow as needed
+Save and publish your application
+Usage
+You can use this tool to convert json content to DOCX format with two parameters:
+
+json_value (required): The json content you want to convert
+
+template_path (required): The template_path for the word template path 
+
 
 ##Functional characteristics
 
@@ -51,13 +69,6 @@ Perfectly preserving the original template:
 -Template based power of attorney
 -Production of compliance documents
 
-##Installation Guide
-
-###Install through Dify App Market
-1. Enter your Dify workspace
-2. Open the "Plugin Market"
-3. Search for "JSON Template Word"
-4. Click to install and authorize the required permissions
 
 ###Manual installation (private deployment)
 ```bash
