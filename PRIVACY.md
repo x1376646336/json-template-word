@@ -1,33 +1,33 @@
-# JSON Template Word 插件隐私政策
+#JSON Template Word Plugin Privacy Policy
 
-## 数据收集与使用
-1. &zwnj;**处理数据类型**&zwnj;  
-   - 用户上传的JSON数据结构  
-   - 自定义Word模板文件内容
+##Data Collection and Use
+1. &zwnj;** Processing data type * *&zwnj;
+-User uploaded JSON data structure
+-Customize Word Template File Content
 
-2. &zwnj;**数据处理目的**&zwnj;  
-   - 执行模板变量替换操作 
-   - 生成标准化格式文档
-   - 提升模板渲染性能‌
+2. &zwnj;** Data processing purpose * *&zwnj;
+-Perform template variable replacement operation
+-Generate standardized format documents
+-Improve template rendering performance
 
-## 数据存储规范
-- 生成文档以bolb返回
+##Data Storage Specification
+-Generate a document and return it in bold
 
-## 数据共享条款
-- 不向第三方共享原始用户数据‌
+##Data Sharing Terms
+-Do not share raw user data with third parties
 
-## 用户权利保障
-- 通过API随时删除已生成文档
+##User Rights Protection
+-Delete generated documents at any time through API
 
 
-## 政策更新机制
-- 重大变更提前30天官网公告  
-- 历史版本存档可追溯  
-- 持续生效条款标注生效日期‌
+##Policy update mechanism
+-Major changes announced on the official website 30 days in advance
+-Historical version archives can be traced back
+-The effective date of the continuous effective clause shall be marked
 
-## 联系方式
-📮 隐私专员邮箱：privacy@yourdomain.com  
-🐛 合规问题反馈：[GitHub Issues](https://github.com/x1376646336/json-template-word/issues)  
-🕒 工作日响应时限：48小时内
+##Contact Information
+📮  Privacy Officer Email: privacy@yourdomain.com   
+🐛  Compliance feedback: [GitHub Issues]( https://github.com/x1376646336/json-template-word/issues )  
+🕒  Response time on weekdays: within 48 hours
 
-_最新更新：2025-04-15 | 版本号：v0.1_  
+_Latest update: April 15, 2025 | Version number: v0.0.1 
