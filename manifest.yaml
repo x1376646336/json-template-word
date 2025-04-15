@@ -1,0 +1,42 @@
+version: 0.0.1
+type: plugin
+author: xuyefang
+name: json-template-word
+label:
+  en_US: json-template-word
+  ja_JP: json-template-word
+  zh_Hans: json-template-word
+  pt_BR: json-template-word
+description:
+  en_US: 主要用于json格式转word模板输出
+  ja_JP: 主要用于json格式转word模板输出
+  zh_Hans: 主要用于json格式转word模板输出
+  pt_BR: 主要用于json格式转word模板输出
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+    storage:
+      enabled: true
+      size: 1048576
+plugins:
+  tools:
+    - provider/json-template-word.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-04-15T12:34:17.32539+08:00
+privacy: PRIVACY.md
+verified: false

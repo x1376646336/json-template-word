@@ -1,0 +1,6 @@
+dify_plugin~=0.0.1b72
+# 核心依赖
+python-docx>=0.8.11  # 处理Word文档
+lxml>=4.9.1          # XML/HTML解析
+markdown>=3.4.1      # Markdown解析（原代码已存在但未列出）
+docxtpl>=0.19.1
