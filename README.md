@@ -52,7 +52,7 @@ Perfectly preserving the original template:
 
 
 
-##Application scenarios
+## Application scenarios
 
 🏢**Enterprise scenario**
 -Contract/Agreement Generation
