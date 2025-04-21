@@ -7,7 +7,7 @@
 ### Description
 This plugin supports converting the generated JSON on the dify platform into a Word template for export
 
-#JSON Template Word Plugin
+# JSON Template Word Plugin
 
 [![License: MIT]( https://img.shields.io/badge/License-MIT-yellow.svg )]( https://opensource.org/licenses/MIT )
 ![Dify Compatibility]( https://img.shields.io/badge/Dify-%3E%3D0.6.0-blue)
@@ -32,7 +32,7 @@ json_value (required): The json content you want to convert
 template_path (required): The template_path for the word template path 
 
 ![image-20250416091001332](https://xuxuweizhi.oss-cn-beijing.aliyuncs.com/typora/image-20250416091001332.png)
-##Functional characteristics
+## Functional characteristics
 
 ✅ **Template Engine**
 Support the use of Microsoft Word (. docx) as a template file, and implement intelligent field replacement through {mustache} syntax
@@ -70,7 +70,7 @@ Perfectly preserving the original template:
 -Production of compliance documents
 
 
-###Manual installation (private deployment)
+### Manual installation (private deployment)
 ```bash
 git clone  https://github.com/x1376646336/json-template-word.git
 cd json-template-word-plugin
