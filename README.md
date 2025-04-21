@@ -34,16 +34,16 @@ template_path (required): The template_path for the word template path
 ![image-20250416091001332](https://xuxuweizhi.oss-cn-beijing.aliyuncs.com/typora/image-20250416091001332.png)
 ##Functional characteristics
 
-✅ & zwnj;** Template Engine * *&zwnj;
+✅ **Template Engine**
 Support the use of Microsoft Word (. docx) as a template file, and implement intelligent field replacement through {mustache} syntax
 
-✅ & zwnj;** Dynamic rendering * *&zwnj;
+✅ **Dynamic rendering**
 Support complex JSON structure parsing, including:
 -Nested object handling
 -Array Loop Rendering
 -Conditional judgment statement
 
-✅ & zwnj;** Format retention * *&zwnj;
+✅**Format retention**
 Perfectly preserving the original template:
 -Text style (font/color/size)
 -Paragraph format
@@ -54,17 +54,17 @@ Perfectly preserving the original template:
 
 ##Application scenarios
 
-🏢 & zwnj;** Enterprise scenario * *&zwnj;
+🏢**Enterprise scenario**
 -Contract/Agreement Generation
 -Project report automation
 -Customer letter processing
 
-🎓 & zwnj;** Educational scene * *&zwnj;
+🎓**Educational scene**
 -Transcript generation
 -Production of admission letter
 -Experimental report formatting
 
-⚖️ & zwnj;** Legal Scene * *&zwnj;
+⚖️**Legal Scene**
 -Legal document generation
 -Template based power of attorney
 -Production of compliance documents
