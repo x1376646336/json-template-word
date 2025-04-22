@@ -2,41 +2,41 @@ identity:
   name: json-template-word
   author: xuyefang
   label:
-    en_US: json-template-word
-    zh_Hans: json-template-word
-    pt_BR: json-template-word
+    en_US: "JSON to Word Converter"
+    zh_Hans: "JSON转Word生成器"
+    pt_BR: "Conversor JSON para Word"
 description:
   human:
-    en_US: 主要用于json格式转word模板输出
-    zh_Hans: 主要用于json格式转word模板输出
-    pt_BR: 主要用于json格式转word模板输出
-  llm: 主要用于json格式转word模板输出
+    en_US: "Convert JSON data to formatted Word documents using templates"
+    zh_Hans: "基于模板引擎将JSON数据转换为格式化的Word文档"
+    pt_BR: "Converte dados JSON para documentos Word formatados usando modelos"
+  llm: "JSON数据通过模板引擎生成Word文档"
 parameters:
   - name: json_value
     type: string
     required: true
     label:
-      en_US: Json string
-      zh_Hans: Json 数据
-      pt_BR: Json string
+      en_US: "JSON Data"
+      zh_Hans: "JSON数据"
+      pt_BR: "Dados JSON"
     human_description:
-      en_US: 主要用于json格式转word模板输出
-      zh_Hans: 主要用于json格式转word模板输出
-      pt_BR: 主要用于json格式转word模板输出
-    llm_description: 主要用于json格式转word模板输出
+      en_US: "JSON string in valid format"
+      zh_Hans: "符合JSON标准的有效数据字符串"
+      pt_BR: "String JSON em formato válido"
+    llm_description: "需要转换的JSON格式数据"
     form: llm
   - name: template_path
     type: string
     required: true
     label:
-      en_US: template_path string
-      zh_Hans: 模板路径
-      pt_BR: template_path string
+      en_US: "Template Path"
+      zh_Hans: "模板路径"
+      pt_BR: "Caminho do Modelo"
     human_description:
-      en_US: word模板路径
-      zh_Hans: word模板路径
-      pt_BR: word模板路径
-    llm_description: word模板路径 如果是docker部署需要配置的是你挂载容器内的模板路径
+      en_US: "Absolute path to .docx template file"
+      zh_Hans: "Word模板文件的绝对路径"
+      pt_BR: "Caminho absoluto para arquivo modelo .docx"
+    llm_description: "模板文件路径（Docker部署时需配置容器内挂载路径）"
     form: llm
 extra:
   python:
