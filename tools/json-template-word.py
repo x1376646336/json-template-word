@@ -36,7 +36,7 @@ class DocxTemplateTool(Tool):
                 blob=docx_bytes,
                 meta={
                     "mime_type": mime_type,
-                    "filename": filename
+                    "file_name": filename
                 }
             )
 
